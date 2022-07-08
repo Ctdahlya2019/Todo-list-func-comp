@@ -1,0 +1,50 @@
+body {
+    background: lightcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+}
+.App{
+    background-color: transparent;
+    border: 10px solid burlywood;
+    border-radius: 15px;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#input{
+    background-color: white;
+    border: 0;
+    color: black;
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#input:focus{
+    outline: none;
+}
+
+.btn{
+    background: burlywood;
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.del-btn{
+    width: 30px;
+    border-radius: 50%;
+}
